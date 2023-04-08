@@ -1,0 +1,54 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px
+}
+header {
+    background-image: url('../images/burbel.jpg');
+    background-size: cover;
+    border-radius: 60px
+    
+}
+
+.span1 {
+    color: rgb(255 0 255);
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 500px
+}
+
+ul {
+    list-style: none;
+    margin-left: 50px;
+    background: #000;
+    width: 1010px;
+    
+}
+
+ul li {
+    display: inline;
+    margin-right: 35px;
+    font-style: italic;
+}
+
+a {
+    color: rgb(255 0 255);
+    text-decoration: none;
+    transition-duration: 1s;
+    font-weight: bold;
+}
+
+a:hover {
+    letter-spacing: 4px;
+}
+
+iframe {
+    margin-left: 400px
+}
+
+

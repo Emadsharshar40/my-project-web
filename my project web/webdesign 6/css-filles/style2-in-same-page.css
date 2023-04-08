@@ -1,0 +1,92 @@
+/*start style rhite-form*/
+.rhite-form {
+	float: right;
+	width: 600px;
+	height: 545px;
+	margin-top: -532.5px;
+}
+/*end style rhite-form*/
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-weight: bold;;
+	font-size: 35px;
+}
+
+h4 {
+	color: #888787;
+	font-size: 15px
+}
+
+.div-standard .input-standard {
+	width: 250px;
+	height: 30px;
+	border-radius: 8px;
+	border: 1px solid #CCC;
+	margin-bottom: 20px;
+	padding: 5px
+}
+
+.div2-standard input {
+	display: block;
+	margin-bottom: 20px;
+	width: 515px;
+	height: 30px;
+	border-radius: 8px;
+	border: 1px solid #CCC;
+	padding: 5px;
+
+}
+
+.div3-standard {
+	margin-bottom: 20px
+}
+
+#span4 {
+	background-color: #333;
+	color: #FFF;
+	font-size: 15px;
+
+}
+
+.last-p {
+	color: #888787;
+	font-size: 12px
+}
+
+.last-a {
+	color: #3535ba
+}
+
+.last-input-in-page {
+	width: 260px;
+	height: 60px;
+	color: #FFF;
+	border-radius: 8px;
+	border: 1px solid #ededed;
+	font-size: 23px;
+	font-weight: bolder;
+	background: #197519;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #000
+}
+
+.last-input-in-page:hover {
+	cursor: pointer;
+	
+}
+
+hr {
+	opacity: .6
+}
+
+#class {
+	position: absolute;
+	top: 450px;
+	left: 100px
+}
+
+

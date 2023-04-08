@@ -1,0 +1,54 @@
+body {
+    background: #EEE
+}
+
+article {
+    width: 500px;
+    margin-left: 400px;
+    border: 2px solid #000;
+    border-bottom: none;
+    border-top: none;
+    background: #333;
+    border-radius: 15px;
+    padding: 10px
+}
+
+img {
+    width: 400px;
+    height: 150px;
+    margin-left: 50px
+    
+}    
+        
+p {  
+    text-align: center;
+}
+
+a {
+    color: #609fff
+}
+
+.p1 {
+    color: red
+}
+.p2 {
+    color: green
+}
+.p3 {
+    color: blue
+}
+.p4 {
+    color: #FFF
+}
+.p6 {
+    color: orange
+}
+
+
+
+
+
+
+
+
+

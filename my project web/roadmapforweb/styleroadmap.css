@@ -1,0 +1,47 @@
+body {
+	background-color: #DDD;
+	padding: 0;
+	margin: 0;
+	font-family: Comic Sans MS;
+}
+article {
+	width: 430px;
+	height: 610px;
+	margin: 20px auto;
+	border-radius: 13px;
+	background: #3b583f
+}
+
+.front-end {
+	background: black;
+	border-radius: 13px;
+}
+
+.back-end {
+	background: #000;
+}
+
+.html , .css , .js , .php , #lispictial {
+	font-size: 25px;
+	font-weight: bolder;
+	color: dodgerblue;
+	margin-bottom: 20px;
+} .html .JQuery , .css .Bootstrab , .js .vue , .php .laravel {
+	font-size: 19px;
+	color: rgb(180,0,0);
+	list-style: none;
+}
+
+span {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	color: #FFF
+}
+.libraries {
+	list-style: none;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	color: #080
+}

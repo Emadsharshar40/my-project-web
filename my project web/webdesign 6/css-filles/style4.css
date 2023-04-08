@@ -1,0 +1,85 @@
+body{
+	padding: 0;
+	margin: 0
+}
+
+.container-form {
+	margin:              100px auto;
+	width:               280px;
+	height:              420px;
+	border:              1px solid #333;
+	padding:             11px;
+	border-radius:       8px;
+	justify-content:     center;
+	align-items:         center;
+	box-shadow:          7px 7px 14px #333;
+	border-left-color:   rgb(200,0,200);
+	border-left-width:   2px;
+	border-top-color:    rgb(200,0,200);
+	border-top-width:    2px;
+	background-image:    url('../images/burbel.jpg');
+	background-size:     cover
+}
+
+.fieldset {
+	border:          1.7px solid rgb(250,0,250);
+	border-radius:   8px;
+	border-left:     none;
+	border-bottom:   none;
+	color:           #FFF;
+	font-style:      italic;
+	font-weight:     bold;
+	font-size:       25px 
+}
+
+.lab1 {
+	display:   block;
+	font-size: 17px
+}
+
+input {
+	background-color:  black;
+	padding:           6px;
+	margin-bottom:     15px;
+	border:            0.5px solid #000;
+	border-radius:     50px;
+	color:             white;
+	font-weight:       bold;
+	font-style:        italic
+}
+
+.select {
+	color:             #fff;
+	background-color:  #000
+}
+
+div {
+	justify-content:   center;
+	align-items:       center;
+	width:             100%;
+	height:            70px;
+	margin-top:        40px;
+	position:          relative
+}
+
+.registor {
+	width:                 95%;
+	height:                95%;
+	font-style:            normal;
+	border-radius:         10px;
+	position:              absolute;
+	left:                  7px;
+	top:                   1.5px;
+    background-image:      url('../images/burbel.jpg');
+	background-size:       cover;
+	color:                 #FFF;
+	font-size:             20px; 
+	letter-spacing:        2px;
+	transition-duration:   1s
+}	
+
+.registor:hover {
+	letter-spacing:  4px;
+	font-size:       23px;
+	cursor:          pointer 
+}

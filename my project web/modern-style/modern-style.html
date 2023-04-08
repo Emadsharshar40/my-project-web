@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ar-en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content="ls sdse -ds33"/>
+    <meta name="viewport" content="width=device-width,intial-scale=1,0"/>
+    <meta http-equiv="x-ua-computible" content="IE-edge"/>
+    <meta name="author" content="Hege Refsnes" />
+    <meta http-equiv="refresh" content="60"/>
+    <title>modern style</title>
+    <!-- <link rel="stylesheet" href="style.css"/> -->
+    <style>
+        /* standard styles of body & global element */
+* {
+    box-sizing: border-box;
+} body {
+    padding: 0;
+    margin: 0;
+    background-image: url('pattern.jpg');
+    background-size: cover;
+    font-family: Comic Sans MS;
+}
+/* end styles standard of body & global element */
+
+/* style container of all element and animation */
+article {
+    width: 75%;
+    height: 500px;
+    background-image: url('pattern.jpg');
+    background-size: cover;
+    margin: 76px auto;
+    padding: 10px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+} @keyframes border-coler {
+    0%, 40%, 75%, 100% {
+       border-color: black; 
+    } 25% {
+       border-color: dodgerblue
+    } 55% {
+       border-color: red; 
+    } 90% {
+        border-color: orange;
+    }
+}
+/* end style container of all element and animation */
+
+/* style container of card show */
+article > div {
+    width: calc(80% / 3);
+    height: 280px;
+    border-radius: 12px;
+    z-index: 1;
+    position: relative;
+}
+.red-card {
+    background: red;
+}
+.blue-card {
+    background: dodgerblue;
+}
+.orange-card {
+    background: orange;
+}
+/* style container of card show */
+
+/* style cercle header */
+.cercle-red, .cercle-blue, .cercle-orange {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+    left: 20.2%;
+    top: -60px;
+} .cercle-red {
+    background: red;
+} .cercle-blue {
+    background: dodgerblue;
+} .cercle-orange {
+    background: orange;
+}
+/* style cercle header */
+
+/*style important card of standard (card show) */
+.z-index1, .z-index2, .z-index3 {
+    width: 200px;
+    height: 280px;
+    padding: 10px;
+    z-index: 2;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    background: #444;
+    position: relative;
+    position: absolute;
+    left: 9.5%;
+    top: -20px;
+}
+/* end style important card of standard (card show) */
+
+/* style cercle and hover efect */
+
+section > div {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 90px;
+    border: 2px solid;
+    position: absolute;
+    left: 27.7%;
+    top: -30px;
+    font-weight: bold;
+    font-size: 30px;
+     transition-duration: .2s;
+     animation: border-coler 20s infinite ease-in-out;
+}
+
+section .last-cercle1 {
+    background: red;
+} section .last-cercle1:hover {
+    background-color: #000;
+    color: #f00;
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+
+section .last-cercle2 {
+    background: dodgerblue;
+} section .last-cercle2:hover {
+    background-color: #000;
+    color: dodgerblue;
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+
+section .last-cercle3 {
+    background: orange;
+} section .last-cercle3:hover {
+    background-color: #000;
+    color: orange;
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+
+/* end style cercle and hover efect */
+
+
+/* style last div container of span&paragraph */
+section .last-div {
+    width: 100%;
+    height: 200px;
+    color: #FFF;
+    margin-top: 72px;
+    text-align: center;
+} span {
+    color: black;
+    font-weight: bold;
+} p {
+    line-height: 23px;
+    letter-spacing: .5px
+}
+/* end style last div container of span&paragraph */
+    </style>
+</head>
+<body>
+    <script>
+        var x = window.prompt('insert your password'),
+            y = 11*2/2-1+10-20+1*4%3+99;
+        if (x == 1019333469 + `${y}`) {
+            document.write(`<body>
+                    <!--start article-->
+    <article>
+        <!--div one-->
+        <div class="red-card">
+            <div class="cercle-red"></div>
+            <section class="z-index1">
+                <div class="last-cercle1">1</div>
+                <header class="last-div">
+                <span>Hello</span>
+                <p>welcome to my website ,
+                enjoy with your freinds her in website
+                and search for eny thing you wanted.</p>
+                </header>
+            </section>
+        </div>
+        <!--end div one-->
+        <!--div tow-->
+        <div class="blue-card">
+            <div class="cercle-blue"></div>
+            <section class="z-index2">
+                <div class="last-cercle2">2</div>
+                <header class="last-div">
+                <span>Hello</span>
+                <p>welcome to my website ,
+                enjoy with your freinds her in website
+                and search for eny thing you wanted.</p>
+                </header>
+            </section>
+        </div>
+        <!--end div tow-->
+        <!--div three-->
+        <div class="orange-card">
+            <div class="cercle-orange"></div>
+            <section class="z-index3">
+                <div class="last-cercle3">3</div>
+                <header class="last-div">
+                <span>Hello</span>
+                <p>welcome to my website ,
+                enjoy with your freinds her in website
+                and search for eny thing you wanted.</p>
+                </header>
+            </section>
+        </div>
+        <!--end div three-->
+    </article>
+    <!--end article-->
+                </body>`);
+        } else {
+            document.write(`<body style="background:#FFF;font-size:100px;text-align:center">غلط يا حمار</body>`);
+        }
+    </script>
+</body>
+</html>

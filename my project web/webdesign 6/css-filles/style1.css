@@ -1,0 +1,96 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #000
+}
+
+header {
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/flowing-blue-waves-background-vector.jpg');
+	background-size: cover;
+}
+
+.head-title {
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto
+}
+
+a {
+	text-decoration: none;
+	color: #000
+}
+
+.anckor {
+	color: #000;
+	font-size: 50px;
+	margin-left: 400px
+}
+
+.aa12:hover {
+	letter-spacing: 15px
+}
+
+.aa12 {
+	transition-duration: 1s
+}
+
+.p1 {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+}
+
+/*nav bar*/
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+.navbar {
+	
+}
+
+.navbar .brand {
+	float: left;
+	width: 40%;
+
+}
+
+.navbar .links {
+	float: left;
+	width: 60%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+
+.navbar .links li {
+	display: inline-block;
+	padding: 30px;
+	text-transform: uppercase;
+}
+
+.navbar .links a.active {
+	color: #1abc9c
+}
+
+
+
+
+
+
